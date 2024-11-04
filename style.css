@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "font1";
+  src: url(./fonts/RubikWetPaint-Regular.ttf);
+}
+@font-face {
+  font-family: "font2";
+  src: url(./fonts/Rubik-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Verdana", serif;
+}
+
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.nav {
+  width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 17px -3px 17px 7px grey;
+  border-radius: 50px;
+  border: skyblue;
+  text-align: center;
+}
+.nav h2 {
+  color: skyblue;
+  font-family: "font2";
+}
+@media screen and (max-width: 860px) {
+  .nav {
+    width: 80%;
+  }
+}
+.nav img {
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: -1px 2px 17px 7px #797a6c;
+}
+@media screen and (max-width: 350px) {
+  .nav img {
+    height: 50px;
+  }
+}
+.nav h1 {
+  font-family: "font1";
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 350px) {
+  .nav h1 {
+    font-size: 0.7rem;
+  }
+}
+.nav p {
+  color: skyblue;
+  font-weight: 1000;
+}
+@media screen and (max-width: 350px) {
+  .nav p {
+    font-size: 0.7rem;
+  }
+}
+.nav a {
+  text-decoration: none;
+  color: skyblue;
+  background: grey;
+  padding: 10px;
+  border-radius: 50px;
+  display: inline-block;
+  transition: 0.3s ease;
+  margin-top: 20px;
+}
+.nav a:hover {
+  background: skyblue;
+  color: grey;
+}
+@media screen and (max-width: 350px) {
+  .nav a {
+    font-size: 0.7rem;
+  }
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 17px -3px 17px 7px grey;
+  border-radius: 50px;
+  border: skyblue;
+  text-align: center;
+  line-height: 30px;
+}
+.container h2 {
+  color: skyblue;
+  font-family: "font2";
+}
+@media screen and (max-width: 860px) {
+  .container {
+    width: 80%;
+  }
+}
+.container .education ul li strong, .container .experience ul li strong {
+  text-align: center;
+}
+.container ul {
+  list-style: none;
+}
+.container h2 {
+  text-align: center;
+}
+@media screen and (max-width: 350px) {
+  .container h2 {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .container {
+    font-size: 0.7rem;
+  }
+}
+
+.footer {
+  width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 17px -3px 17px 7px grey;
+  border-radius: 50px;
+  border: skyblue;
+  line-height: 30px;
+  text-align: center;
+}
+.footer h2 {
+  color: skyblue;
+  font-family: "font2";
+}
+@media screen and (max-width: 860px) {
+  .footer {
+    width: 80%;
+  }
+}
+.footer ul {
+  list-style: none;
+}
+.footer h2 {
+  text-align: center;
+}
+@media screen and (max-width: 350px) {
+  .footer h2 {
+    font-size: 0.7rem;
+  }
+}
+.footer .references a {
+  text-decoration: none;
+  color: skyblue;
+}
+.footer .social-media ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .social-media ul li {
+  cursor: pointer;
+  border: 1px solid grey;
+  padding: 2.5px 5px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+.footer .social-media ul li:hover {
+  background: skyblue;
+  border: none;
+}
+.footer .social-media ul li i {
+  color: skyblue;
+  transition: 0.3s ease;
+}
+.footer .social-media ul li i:hover {
+  color: grey;
+}
+@media screen and (max-width: 350px) {
+  .footer {
+    font-size: 0.7rem;
+  }
+}/*# sourceMappingURL=style.css.map */
